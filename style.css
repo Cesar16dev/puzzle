@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans";
+  background-color: aqua;
+}
+
+.board {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 300px;
+  margin: 120px auto;
+}
+
+.token {
+  background-color: #f3ea60;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 3px 3px #b96453;
+}
